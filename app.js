@@ -5,7 +5,7 @@ let started = false;
 let level = 0;
 let levelInfo = document.querySelector("h2");
  
-document.addEventListener("keypress", startGame());
+document.addEventListener("keypress", function() { startGame() }, false);
 
 let allBtns = document.querySelectorAll(".btn");
 
