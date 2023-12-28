@@ -68,7 +68,7 @@ function activateColor() {
 }
 
  function btnFlash(btn) {
-
+    btn = this;
     btn.classList.add("flash");
     setTimeout( function() {
         btn.classList.remove("flash")
