@@ -18,7 +18,7 @@ allBtns.forEach(function(btn) {
         btnFlash(btn);
         let userCol = bttn;
         userSeq.push(userCol);
-        console.log(userSeq);
+        
     });
 
 });
@@ -40,7 +40,7 @@ function activateColor() {
     let btn = document.getElementsByClassName(ranCol)[0];   
     btnFlash(btn);
     gameSeq.push(ranCol);
-    console.log(gameSeq);
+   
 
 }
 
@@ -75,7 +75,7 @@ function updateRound() {
         }, 100);
     } else {
         gameOver();
-        console.log("false");
+       
     }
 }
 
@@ -98,7 +98,7 @@ function check() {
 
 function levelUp() {
     if(started) {
-        console.log(level,"Level");
+       
         level++;
         time+=1500;
         userSeq = [];
